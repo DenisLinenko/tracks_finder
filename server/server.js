@@ -36,7 +36,6 @@
 		}
 		
 	});
-
 	app.post('/track', (req, res) => {
 		try{
 			const { id } = req.body
